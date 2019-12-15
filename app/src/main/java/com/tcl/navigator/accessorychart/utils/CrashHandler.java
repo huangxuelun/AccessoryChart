@@ -108,8 +108,8 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
         pw.println(Build.MODEL);
 
         //CPU架构
-        pw.print("CPU ABI: ");
-        pw.println(Build.CPU_ABI);
+//        pw.print("CPU ABI: ");
+//        pw.println(Build.CPU_ABI);
     }
 
     private void uploadExceptionToServer() {
